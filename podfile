@@ -1,0 +1,17 @@
+target 'InKe-Copy' do
+use_frameworks!
+platform:ios,'8.0'
+pod 'Kingfisher'
+pod 'SnapKit'
+pod 'Then'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'Reachability'
+pod 'Alamofire'
+pod 'mob_sharesdk'
+pod 'mob_sharesdk/ShareSDKPlatforms/QQ'
+pod 'mob_sharesdk/ShareSDKPlatforms/SinaWeibo'
+pod 'mob_sharesdk/ShareSDKPlatforms/WeChat'
+pod 'mob_smssdk'
+pod 'LFLiveKit'
+end
