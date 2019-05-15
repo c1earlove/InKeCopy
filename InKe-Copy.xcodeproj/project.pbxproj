@@ -10,7 +10,6 @@
 		0F4C152CADC423B42492E3B0 /* Pods_InKe_Copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD17305D5FBC4AEC0AEEA8A /* Pods_InKe_Copy.framework */; };
 		5B13A9E21FD52E0F00291609 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B13A9E11FD52E0F00291609 /* BottomView.swift */; };
 		5B13A9E41FD5376300291609 /* LiveingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B13A9E31FD5376300291609 /* LiveingViewController.swift */; };
-		5B13A9E71FD5396500291609 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B13A9E61FD5395900291609 /* IJKMediaFramework.framework */; };
 		5B13A9E91FD539D600291609 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B13A9E81FD539D600291609 /* libz.tbd */; };
 		5B13A9EB1FD539EA00291609 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B13A9EA1FD539EA00291609 /* libbz2.tbd */; };
 		5B13A9ED1FD539F500291609 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B13A9EC1FD539F500291609 /* AudioToolbox.framework */; };
@@ -48,6 +47,7 @@
 		5B44CBB91FDFBC3A00D63D7C /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B44CBB71FDFBC3700D63D7C /* MD5.swift */; };
 		5B44CBBA1FDFBC3A00D63D7C /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B44CBB81FDFBC3700D63D7C /* SHA1.swift */; };
 		5B44CBC01FDFC37B00D63D7C /* UIScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B44CBBF1FDFC37B00D63D7C /* UIScrollViewExtension.swift */; };
+		5B4774CD228BFBDA0067F5B0 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4774CC228BFBDA0067F5B0 /* IJKMediaFramework.framework */; };
 		5B8289EF1FEB4DBB00C5F0F3 /* ShareModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8289EE1FEB4DB500C5F0F3 /* ShareModule.swift */; };
 		5BCA12D71FE7EBFD004BE579 /* CustomerShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA12D61FE7EBFD004BE579 /* CustomerShareView.swift */; };
 		5BCA12D91FE7EE0C004BE579 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA12D81FE7EE0C004BE579 /* UIColorExtension.swift */; };
@@ -73,7 +73,6 @@
 /* Begin PBXFileReference section */
 		5B13A9E11FD52E0F00291609 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 		5B13A9E31FD5376300291609 /* LiveingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveingViewController.swift; sourceTree = "<group>"; };
-		5B13A9E61FD5395900291609 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		5B13A9E81FD539D600291609 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		5B13A9EA1FD539EA00291609 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		5B13A9EC1FD539F500291609 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -113,6 +112,7 @@
 		5B44CBB71FDFBC3700D63D7C /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
 		5B44CBB81FDFBC3700D63D7C /* SHA1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA1.swift; sourceTree = "<group>"; };
 		5B44CBBF1FDFC37B00D63D7C /* UIScrollViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtension.swift; sourceTree = "<group>"; };
+		5B4774CC228BFBDA0067F5B0 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		5B8289EE1FEB4DB500C5F0F3 /* ShareModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareModule.swift; sourceTree = "<group>"; };
 		5BCA12D61FE7EBFD004BE579 /* CustomerShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerShareView.swift; sourceTree = "<group>"; };
 		5BCA12D81FE7EE0C004BE579 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 				5B13A9EB1FD539EA00291609 /* libbz2.tbd in Frameworks */,
 				5B13A9E91FD539D600291609 /* libz.tbd in Frameworks */,
 				0F4C152CADC423B42492E3B0 /* Pods_InKe_Copy.framework in Frameworks */,
-				5B13A9E71FD5396500291609 /* IJKMediaFramework.framework in Frameworks */,
+				5B4774CD228BFBDA0067F5B0 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,10 +225,10 @@
 		5B13A9E51FD5393200291609 /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				5B4774CC228BFBDA0067F5B0 /* IJKMediaFramework.framework */,
 				5B1E51CB1FE0D0D20086D868 /* ZLaunchAdVC */,
 				5B44CBB61FDFBC3700D63D7C /* SwiftHash */,
 				5B13AA041FD54C9400291609 /* HeartFlyView */,
-				5B13A9E61FD5395900291609 /* IJKMediaFramework.framework */,
 			);
 			path = ThirdLib;
 			sourceTree = "<group>";
